@@ -1,0 +1,21 @@
+{
+    "name": "maker/composer-test",
+    "description": "first composer package test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maker",
+            "email": "maker68@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maker\\First": "src/Maker/First"
+        }
+    }
+}
